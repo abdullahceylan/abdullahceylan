@@ -1,16 +1,25 @@
-### Hi there 👋
+```js
+const About = ({ who = 'Abdullah Ceylan' }) => (
+    <>
+      <Summary>
+        {who}
+        Frontend Developer.
+        Proficient in web technologies such as JavaScript, GraphQL, React.js, React Native.
+      </Summary>
+      <Workplace
+        data={{
+          company: 'Creativouse',
+          role: 'Senior Frontend Developer'
+        }}
+      />
+      <Highlights
+        data={[
+          'JavaScript', 'React.js', 'Next.js', 'React Native', 'Node.js',
+          'GraphQL', 'Docker / Jenkins', 'AWS', 'Git', 'SASS'
+        ]}
+      />
+    </>
+  );
 
-<!--
-**abdullahceylan/abdullahceylan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+export default AboutMe;
+```
