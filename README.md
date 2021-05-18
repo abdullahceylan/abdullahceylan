@@ -1,25 +1,6 @@
-```js
-const About = ({ who = 'Abdullah Ceylan' }) => (
-    <>
-      <Summary>
-        {who}
-        Frontend Developer.
-        Proficient in web technologies such as JavaScript, GraphQL, React.js, React Native.
-      </Summary>
-      <Workplace
-        data={{
-          company: 'Creativouse',
-          role: 'Senior Frontend Developer'
-        }}
-      />
-      <Highlights
-        data={[
-          'JavaScript', 'React.js', 'Next.js', 'React Native', 'Node.js',
-          'GraphQL', 'Docker / Jenkins', 'AWS', 'Git', 'SASS'
-        ]}
-      />
-    </>
-  );
+### 📱 Hi there 👋
 
-export default AboutMe;
-```
+![Abdullah's github stats](https://github-readme-stats.vercel.app/api?username=abdullahceylan&show_icons=true&theme=tokyonight&hide=issues&icon_color=bb2ca3&count_private=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abdullahceylan&layout=compact&theme=tokyonight&langs_count=6)
+
